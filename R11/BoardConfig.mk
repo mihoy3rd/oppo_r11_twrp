@@ -15,9 +15,9 @@
 #
 
 # Inherit from OPPO sdm660-common
--include device/oppo/sdm660-common/BoardConfigCommon.mk
+-include device/oppo_r11_twrp/sdm660-common/BoardConfigCommon.mk
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/oppo/R11/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/oppo_r11_twrp/R11/recovery.fstab
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920

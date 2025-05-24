@@ -17,4 +17,4 @@
 PRODUCT_HARDWARE := R11
 
 # Inherit from OEM SoC-common
-$(call inherit-product, device/oppo/sdm660-common/common.mk)
+$(call inherit-product, device/oppo_r11_twrp/sdm660-common/common.mk)

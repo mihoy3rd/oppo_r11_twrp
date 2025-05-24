@@ -26,4 +26,4 @@ PRODUCT_MODEL := OPPO R11
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=R11
 
 # Inherit from device-specific part of the product configuration
-$(call inherit-product, device/oppo/R11/device.mk)
+$(call inherit-product, device/oppo_r11_twrp/R11/device.mk)
